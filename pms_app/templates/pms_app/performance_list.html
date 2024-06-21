@@ -1,0 +1,40 @@
+{% extends 'pms_app/base.html' %}
+
+{% block content %}
+<section class="performance-list py-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Performance Records</h1>
+        <div class="text-right mb-4">
+            <a href="{% url 'performance_create' %}" class="btn btn-primary"><i class="fas fa-plus"></i> Add Performance</a>
+        </div>
+        <div class="table-responsive">
+            <table class="table table-striped table-bordered">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>Employee</th>
+                        <th>Review Period Start</th>
+                        <th>Review Period End</th>
+                        <th>Rating Score</th>
+                        <th>Promotion Recommended</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for performance in performance_records %}
+                    <tr>
+                        <td>{{ performance.employee.name }}</td>
+                        <td>{{ performance.review_period_start }}</td>
+                        <td>{{ performance.review_period_end }}</td>
+                        <td>{{ performance.rating_score }}</td>
+                        <td>{{ performance.is_promotion_recommended|yesno:"Yes,No" }}</td>
+                    </tr>
+                    {% empty %}
+                    <tr>
+                        <td colspan="5" class="text-center">No performance records found.</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    </div>
+</section>
+{% endblock %}

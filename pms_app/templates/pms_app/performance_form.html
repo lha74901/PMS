@@ -1,0 +1,87 @@
+{% extends 'pms_app/base.html' %}
+
+{% block content %}
+<section class="performance-form py-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Add Performance</h1>
+        <div class="card">
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="employee">Employee</label>
+                        <select name="employee" id="employee" class="form-control" required>
+                            {% for employee in form.employee.field.queryset %}
+                            <option value="{{ employee.pk }}" {% if employee.pk == form.employee.value %}selected{% endif %}>{{ employee.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="review_period_start">Review Period Start</label>
+                        <input type="date" name="review_period_start" id="review_period_start" class="form-control" value="{{ form.review_period_start.value|default_if_none:'' }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="review_period_end">Review Period End</label>
+                        <input type="date" name="review_period_end" id="review_period_end" class="form-control" value="{{ form.review_period_end.value|default_if_none:'' }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="department">Department</label>
+                        <input type="text" name="department" id="department" class="form-control" value="{{ form.department.value|default_if_none:'' }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="previous_rating">Previous Rating</label>
+                        <input type="text" name="previous_rating" id="previous_rating" class="form-control" value="{{ form.previous_rating.value|default_if_none:'' }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="training_hours">Training Hours</label>
+                        <input type="number" name="training_hours" id="training_hours" class="form-control" value="{{ form.training_hours.value|default_if_none:'' }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="overtime_hours">Overtime Hours</label>
+                        <input type="number" name="overtime_hours" id="overtime_hours" class="form-control" value="{{ form.overtime_hours.value|default_if_none:'' }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="absent_days">Absent Days</label>
+                        <input type="number" name="absent_days" id="absent_days" class="form-control" value="{{ form.absent_days.value|default_if_none:'' }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="rating_score">Rating Score</label>
+                        <input type="number" name="rating_score" id="rating_score" class="form-control" value="{{ form.rating_score.value|default_if_none:'' }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="comments">Comments</label>
+                        <textarea name="comments" id="comments" class="form-control" rows="3">{{ form.comments.value|default_if_none:'' }}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="reviewer">Reviewer</label>
+                        <select name="reviewer" id="reviewer" class="form-control">
+                            <option value="">Select Reviewer</option>
+                            {% for employee in form.reviewer.field.queryset %}
+                            <option value="{{ employee.pk }}" {% if employee.pk == form.reviewer.value %}selected{% endif %}>{{ employee.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="goals_achieved">Goals Achieved</label>
+                        <textarea name="goals_achieved" id="goals_achieved" class="form-control" rows="3">{{ form.goals_achieved.value|default_if_none:'' }}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="areas_to_improve">Areas to Improve</label>
+                        <textarea name="areas_to_improve" id="areas_to_improve" class="form-control" rows="3">{{ form.areas_to_improve.value|default_if_none:'' }}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="employee_feedback">Employee Feedback</label>
+                        <textarea name="employee_feedback" id="employee_feedback" class="form-control" rows="3">{{ form.employee_feedback.value|default_if_none:'' }}</textarea>
+                    </div>
+                    <div class="form-group form-check">
+                        <input type="checkbox" name="is_promotion_recommended" id="is_promotion_recommended" class="form-check-input" {% if form.is_promotion_recommended.value %}checked{% endif %}>
+                        <label for="is_promotion_recommended" class="form-check-label">Is Promotion Recommended</label>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a href="{% url 'performance_list' %}" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

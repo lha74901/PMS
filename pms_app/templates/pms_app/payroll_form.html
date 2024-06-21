@@ -1,0 +1,71 @@
+{% extends 'pms_app/base.html' %}
+
+{% block content %}
+<section class="payroll-form py-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Add Payroll</h1>
+        <div class="card">
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="employee">Employee</label>
+                        <select name="employee" id="employee" class="form-control" required>
+                            {% for employee in form.employee.field.queryset %}
+                            <option value="{{ employee.pk }}" {% if employee.pk == form.employee.value %}selected{% endif %}>{{ employee.name }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="month">Month</label>
+                        <input type="number" name="month" id="month" class="form-control" value="{{ form.month.value|default_if_none:'' }}" min="1" max="12" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="number" name="year" id="year" class="form-control" value="{{ form.year.value|default_if_none:'' }}" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="basic_salary">Basic Salary</label>
+                        <input type="number" name="basic_salary" id="basic_salary" class="form-control" value="{{ form.basic_salary.value|default_if_none:'' }}" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="deductions">Deductions</label>
+                        <input type="number" name="deductions" id="deductions" class="form-control" value="{{ form.deductions.value|default_if_none:'' }}" step="0.01" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="allowances">Allowances</label>
+                        <input type="number" name="allowances" id="allowances" class="form-control" value="{{ form.allowances.value|default_if_none:'' }}" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="bonus">Bonus</label>
+                        <input type="number" name="bonus" id="bonus" class="form-control" value="{{ form.bonus.value|default_if_none:'' }}" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="tax">Tax</label>
+                        <input type="number" name="tax" id="tax" class="form-control" value="{{ form.tax.value|default_if_none:'' }}" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="overtime_pay">Overtime Pay</label>
+                        <input type="number" name="overtime_pay" id="overtime_pay" class="form-control" value="{{ form.overtime_pay.value|default_if_none:'' }}" step="0.01">
+                    </div>
+                    <div class="form-group">
+                        <label for="payment_date">Payment Date</label>
+                        <input type="date" name="payment_date" id="payment_date" class="form-control" value="{{ form.payment_date.value|default_if_none:'' }}">
+                    </div>
+                    <div class="form-group">
+                        <label for="payment_method">Payment Method</label>
+                        <select name="payment_method" id="payment_method" class="form-control">
+                            <option value="">Select Payment Method</option>
+                            {% for method in form.payment_method.field.choices %}
+                            <option value="{{ method.0 }}" {% if method.0 == form.payment_method.value %}selected{% endif %}>{{ method.1 }}</option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Save</button>
+                    <a href="{% url 'payroll_list' %}" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

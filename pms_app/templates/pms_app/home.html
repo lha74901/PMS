@@ -1,0 +1,142 @@
+{% extends 'pms_app/base.html' %}
+
+{% block title %}HR Management System - Home{% endblock %}
+
+{% block content %}
+<section class="hero" style="background-image: url('https://img.freepik.com/premium-photo/corporate-business-background-banner_34629-303.jpg?w=1380'); background-size: cover; background-position: center; padding: 100px 0;">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h1 class="display-4 text-white mb-4">Welcome to HR Management System</h1>
+                <p class="lead text-white mb-5">Efficiently manage your organization's human resources.</p>
+                <a href="#features" class="btn btn-primary btn-lg">Learn More</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="features" class="features py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://img.freepik.com/premium-vector/meeting-online-concept_118813-2649.jpg?w=1380" class="card-img-top" alt="Employee Management">
+                    <div class="card-body">
+                        <h5 class="card-title">Employee Management</h5>
+                        <p class="card-text">Manage employee records, including personal information, job details, and performance reviews.</p>
+                        <a href="{% url 'employee_list' %}" class="btn btn-primary">View Employees</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://img.freepik.com/premium-vector/smartwatch-with-wifi-bluetooth-gps-wireless-connectivity-bluetooth-nfc-gps-technology_566886-2467.jpg?w=1380" class="card-img-top" alt="Attendance Tracking">
+                    <div class="card-body">
+                        <h5 class="card-title">Attendance Tracking</h5>
+                        <p class="card-text">Track employee attendance, manage leaves, and generate attendance reports.</p>
+                        <a href="{% url 'attendance_list' %}" class="btn btn-primary">View Attendance</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://img.freepik.com/premium-vector/cash-flow-vector-illustration-concept-business-people-with-online-cash-flow-report_566886-11290.jpg?w=996" class="card-img-top" alt="Payroll Processing">
+                    <div class="card-body">
+                        <h5 class="card-title">Payroll Processing</h5>
+                        <p class="card-text">Process employee payroll, calculate salaries, and generate pay slips.</p>
+                        <a href="{% url 'payroll_list' %}" class="btn btn-primary">View Payroll</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="card h-100 shadow">
+                    <img src="https://img.freepik.com/premium-vector/sales-performance-concept-modern-flat-design-man-analyzes-data-works-with-statistics_9209-6825.jpg?w=900" class="card-img-top" alt="Performance Management">
+                    <div class="card-body">
+                        <h5 class="card-title">Performance Management</h5>
+                        <p class="card-text">Evaluate employee performance, set goals, and provide feedback.</p>
+                        <a href="{% url 'performance_list' %}" class="btn btn-primary">View Performance</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="testimonials bg-light py-5">
+    <div class="container">
+        <h2 class="text-center mb-5">What Our Clients Say</h2>
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="card-text">"The HR Management System has revolutionized our HR processes. It's user-friendly and highly efficient."</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted">John Doe, CEO</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="card-text">"We've been using this system for a year now, and it has significantly improved our HR management. Highly recommended!"</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted">Jane Smith, HR Manager</h6>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow">
+                    <div class="card-body">
+                        <i class="fas fa-quote-left fa-2x text-primary mb-3"></i>
+                        <p class="card-text">"The support team is exceptional. They are responsive and always ready to assist with any queries or issues."</p>
+                        <hr>
+                        <h6 class="card-subtitle mb-2 text-muted">Mark Johnson, Director</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+
+{% block footer %}
+<footer class="footer bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 mb-4">
+                <h5>About Us</h5>
+                <p>We are a leading provider of HR management solutions, dedicated to helping organizations streamline their HR processes.</p>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt mr-2"></i> 123 Main Street, City, Country</li>
+                    <li><i class="fas fa-phone mr-2"></i> +1 123-456-7890</li>
+                    <li><i class="fas fa-envelope mr-2"></i> info@hrmanagement.com</li>
+                </ul>
+            </div>
+            <div class="col-md-4 mb-4">
+                <h5>Follow Us</h5>
+                <ul class="list-inline">
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <hr class="bg-white">
+        <p class="text-center">&copy; 2024 HR Management System. All rights reserved.</p>
+    </div>
+</footer>
+{% endblock %}

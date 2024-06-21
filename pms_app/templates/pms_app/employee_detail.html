@@ -1,0 +1,35 @@
+{% extends 'pms_app/base.html' %}
+
+{% block content %}
+<section class="employee-detail py-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Employee Details</h1>
+        <div class="card">
+            <div class="card-body">
+                <div class="row">
+                    <div class="col-md-4">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTaiQO_Ipf811iQLX1i3LkP51yUJy1uIw8S7w&s" class="img-fluid rounded-circle mb-4" alt="Employee Image">
+                    </div>
+                    <div class="col-md-8">
+                        <h4>{{ employee.name }}</h4>
+                        <p><strong>Email:</strong> {{ employee.email }}</p>
+                        <p><strong>Phone:</strong> {{ employee.phone }}</p>
+                        <p><strong>Designation:</strong> {{ employee.designation }}</p>
+                        <p><strong>Department:</strong> {{ employee.department }}</p>
+                        <p><strong>Employee ID:</strong> {{ employee.employee_id }}</p>
+                        <p><strong>Hire Date:</strong> {{ employee.hire_date }}</p>
+                        <p><strong>Salary:</strong> {{ employee.salary }}</p>
+                        <p><strong>Address:</strong> {{ employee.address }}</p>
+                        <p><strong>City:</strong> {{ employee.city }}</p>
+                        <p><strong>Country:</strong> {{ employee.country }}</p>
+                        <p><strong>Active:</strong> {{ employee.is_active|yesno:"Yes,No" }}</p>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer text-right">
+                <a href="{% url 'employee_list' %}" class="btn btn-secondary">Back to List</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

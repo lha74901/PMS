@@ -1,0 +1,26 @@
+{% extends 'pms_app/base.html' %}
+
+{% block content %}
+<section class="payroll-generate py-5">
+    <div class="container">
+        <h1 class="text-center mb-5">Generate Payroll</h1>
+        <div class="card">
+            <div class="card-body">
+                <form method="post">
+                    {% csrf_token %}
+                    <div class="form-group">
+                        <label for="month">Month</label>
+                        <input type="number" name="month" id="month" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="year">Year</label>
+                        <input type="number" name="year" id="year" class="form-control" required>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Generate Payroll</button>
+                    <a href="{% url 'payroll_list' %}" class="btn btn-secondary">Cancel</a>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}

@@ -1,0 +1,94 @@
+{% extends 'pms_app/base.html' %}
+
+{% block title %}Company Announcements{% endblock %}
+
+{% block content %}
+<div class="container my-5">
+    <h1 class="section-title text-center mb-5">Company Announcements</h1>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="card-title mb-0">New Product Launch</h4>
+                </div>
+                <img src="https://img.freepik.com/premium-psd/brand-new-product-release-rectangular-box-curtain-design-mockup_433979-2072.jpg?w=1060" class="card-img-top" alt="Announcement Image">
+                <div class="card-body">
+                    <p class="card-text lead">We are excited to announce the launch of our new product line, which will revolutionize the industry. Stay tuned for more details and updates!</p>
+                    <p class="card-text"><small class="text-muted">Posted on May 15, 2023</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-success text-white">
+                    <h4 class="card-title mb-0">Employee Recognition Awards</h4>
+                </div>
+                <img src="https://img.freepik.com/premium-vector/business-people-winner-prize-customer-vector-illustration-employee_159757-1428.jpg?w=1380" class="card-img-top" alt="Announcement Image">
+                <div class="card-body">
+                    <p class="card-text lead">Congratulations to our outstanding employees who have been recognized for their exceptional performance and dedication. Join us in celebrating their achievements!</p>
+                    <p class="card-text"><small class="text-muted">Posted on April 30, 2023</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-warning text-white">
+                    <h4 class="card-title mb-0">Upcoming Company Event</h4>
+                </div>
+                <img src="https://img.freepik.com/premium-photo/upcoming-events-words-written-wooden-blocks-with-orange-background_648871-4997.jpg?w=1380" class="card-img-top" alt="Announcement Image">
+                <div class="card-body">
+                    <p class="card-text lead">Mark your calendars for our upcoming company-wide event, where we will discuss our strategic goals and celebrate our successes. More details will be shared soon.</p>
+                    <p class="card-text"><small class="text-muted">Posted on April 15, 2023</small></p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow mb-4">
+                <div class="card-header bg-info text-white">
+                    <h4 class="card-title mb-0">New Office Expansion</h4>
+                </div>
+                <img src="https://img.freepik.com/free-photo/group-graphic-designers-giving-high-five-each-other_1170-1095.jpg?t=st=1718641690~exp=1718645290~hmac=c3598e5caa989d7562a5d12e0de7008f0c3c7129e34dacd6036bb2ccf887de62&w=1380" class="card-img-top" alt="Announcement Image">
+                <div class="card-body">
+                    <p class="card-text lead">We are thrilled to announce the expansion of our office to accommodate our growing team. The new space will provide a collaborative and inspiring environment for our employees.</p>
+                    <p class="card-text"><small class="text-muted">Posted on March 31, 2023</small></p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block footer %}
+<footer class="bg-dark text-white py-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <h5>About Us</h5>
+                <p>We are a leading provider of HR management solutions, dedicated to helping organizations streamline their HR processes and empower their workforce.</p>
+            </div>
+            <div class="col-md-6 text-md-right">
+                <h5>Contact Us</h5>
+                <ul class="list-unstyled">
+                    <li><i class="fas fa-map-marker-alt mr-2"></i>123 Main Street, City, Country</li>
+                    <li><i class="fas fa-phone mr-2"></i>+1 123-456-7890</li>
+                    <li><i class="fas fa-envelope mr-2"></i>info@hrmanagement.com</li>
+                </ul>
+                <div class="mt-3">
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fab fa-twitter"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="btn btn-outline-light btn-sm"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+        <hr class="my-4">
+        <div class="text-center">
+            <p>&copy; 2023 HR Management System. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+{% endblock %}

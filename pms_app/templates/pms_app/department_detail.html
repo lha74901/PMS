@@ -1,0 +1,36 @@
+{% extends 'pms_app/base.html' %}
+
+{% block title %}{{ department.name }}{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-body">
+                    <h2 class="card-title">{{ department.name }}</h2>
+                    <p class="card-text">{{ department.description }}</p>
+                    <hr>
+                    <h4>Department Manager</h4>
+                    {% if department.manager %}
+                    <p>{{ department.manager.name }}</p>
+                    {% else %}
+                    <p>No manager assigned.</p>
+                    {% endif %}
+                    <hr>
+                    <h4>Employees</h4>
+                    {% if employees %}
+                    <ul class="list-group">
+                        {% for employee in employees %}
+                        <li class="list-group-item">{{ employee.name }}</li>
+                        {% endfor %}
+                    </ul>
+                    {% else %}
+                    <p>No employees in this department.</p>
+                    {% endif %}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
