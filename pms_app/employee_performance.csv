@@ -1,0 +1,151 @@
+employee_id,name,age,gender,position,date_of_joining,years_of_experience,education_level,salary,training_hours,projects_completed,attendance_rate,manager_rating,peer_rating,previous_rating,technical_skills_score,soft_skills_score,performance_rating,hire_date,address,city,country,is_active,email,phone,designation,department_id
+1,John Smith,35,M,Senior Engineer,2015-06-01,10,Masters,120000,50,12,0.95,4,4,4,85,90,4,2015-06-01,123 Main St,New York,USA,1,john.smith@company.com,555-1234,Senior Engineer,1
+2,Jane Doe,28,F,Marketing Specialist,2019-01-15,3,Bachelors,65000,40,5,0.98,4,4,3,80,85,4,2019-01-15,456 Oak Ave,Chicago,USA,1,jane.doe@company.com,555-5678,Marketing Specialist,2
+3,Bob Johnson,42,M,Sales Manager,2010-09-30,15,Bachelors,110000,60,20,0.97,5,4,5,95,80,5,2010-09-30,789 Elm St,Los Angeles,USA,1,bob.johnson@company.com,555-9012,Sales Manager,3
+4,Alice Brown,31,F,HR Coordinator,2017-03-15,2,Masters,75000,30,0,0.55,3,3,3,65,67,3,2017-03-15,321 Pine Rd,Houston,USA,1,alice.brown@company.com,555-3456,HR Coordinator,4
+5,Tom Wilson,39,M,Operations Manager,2013-11-01,5,Bachelors,100000,45,8,0.96,4,4,4,90,85,4,2013-11-01,654 Cedar Ln,Philadelphia,USA,1,tom.wilson@company.com,555-7890,Operations Manager,5
+6,Sarah Davis,26,F,Software Developer,2020-07-01,1,Bachelors,80000,20,2,0.98,3,4,2,70,80,3,2020-07-01,987 Maple Ave,Phoenix,USA,1,sarah.davis@company.com,555-2345,Software Developer,1
+7,Mike Lee,33,M,Product Manager,2016-05-15,11,Masters,95000,55,15,0.97,5,5,4,90,95,5,2016-05-15,246 Walnut St,San Antonio,USA,1,mike.lee@company.com,555-6789,Product Manager,6
+8,Emily Chen,29,F,Data Analyst,2018-09-01,7,Bachelors,70000,50,10,0.95,4,3,4,85,75,4,2018-09-01,753 Spruce Dr,San Diego,USA,1,emily.chen@company.com,555-0123,Data Analyst,7
+9,David Kim,37,M,Financial Analyst,2014-02-15,20,Masters,105000,70,30,0.99,5,5,5,95,90,5,2014-02-15,159 Birch Rd,Dallas,USA,1,david.kim@company.com,555-4567,Financial Analyst,8
+10,Lisa Patel,32,F,Accountant,2016-12-01,4,Bachelors,85000,35,6,0.96,4,4,3,80,85,4,2016-12-01,842 Oak St,San Jose,USA,1,lisa.patel@company.com,555-8901,Accountant,8
+11,Robert Nguyen,40,M,Sales Representative,2012-08-01,13,Bachelors,90000,65,25,0.98,5,4,5,95,85,5,2012-08-01,357 Pine Ave,Austin,USA,1,robert.nguyen@company.com,555-2345,Sales Representative,3
+12,Karen Smith,27,F,Graphic Designer,2019-04-15,2,Bachelors,60000,25,4,0.99,4,4,3,75,90,4,2019-04-15,753 Elm Rd,Jacksonville,USA,1,karen.smith@company.com,555-6789,Graphic Designer,2
+13,Brian Lee,34,M,Operations Specialist,2015-10-01,9,Masters,95000,55,14,0.97,5,5,4,90,85,5,2015-10-01,951 Maple Ln,Fort Worth,USA,1,brian.lee@company.com,555-0123,Operations Specialist,5
+14,Melissa Davis,30,F,Recruiter,2017-06-15,6,Bachelors,70000,40,7,0.95,4,3,4,80,80,4,2017-06-15,486 Walnut Dr,Columbus,USA,1,melissa.davis@company.com,555-4567,Recruiter,4
+15,Kevin Chen,38,M,Business Analyst,2013-03-01,14,Masters,110000,60,18,0.98,5,4,5,95,90,5,2013-03-01,739 Spruce St,Charlotte,USA,1,kevin.chen@company.com,555-8901,Business Analyst,7
+16,Amy Patel,25,F,Customer Service Rep,2021-01-01,0,Bachelors,50000,15,1,0.99,3,4,2,70,75,3,2021-01-01,246 Birch Ave,San Francisco,USA,1,amy.patel@company.com,555-2345,Customer Service Rep,9
+17,Jason Kim,36,M,IT Support Specialist,2014-11-15,12,Bachelors,85000,70,22,0.97,5,5,5,90,95,5,2014-11-15,813 Cedar Rd,Indianapolis,USA,1,jason.kim@company.com,555-6789,IT Support Specialist,10
+18,Laura Nguyen,29,F,Social Media Manager,2018-07-01,8,Bachelors,75000,45,9,0.96,4,4,4,85,90,4,2018-07-01,357 Oak Ln,Seattle,USA,1,laura.nguyen@company.com,555-0123,Social Media Manager,2
+19,Mark Davis,41,M,Project Manager,2011-12-01,22,Masters,120000,80,35,0.99,5,5,5,95,95,5,2011-12-01,951 Pine Dr,Denver,USA,1,mark.davis@company.com,555-4567,Project Manager,6
+20,Nancy Smith,28,F,Training Coordinator,2019-09-15,3,Bachelors,65000,30,4,0.97,4,4,3,75,85,4,2019-09-15,486 Walnut St,Washington DC,USA,1,nancy.smith@company.com,555-8901,Training Coordinator,4
+21,Steven Chen,33,M,Financial Analyst,2016-04-01,10,Masters,100000,60,16,0.95,5,4,4,90,80,5,2016-04-01,739 Spruce Ave,Boston,USA,1,steven.chen@company.com,555-2345,Financial Analyst,8
+22,Rachel Lee,26,F,Web Developer,2020-10-15,5,Bachelors,70000,50,8,0.98,4,5,4,85,90,4,2020-10-15,246 Birch Rd,Nashville,USA,1,rachel.lee@company.com,555-6789,Web Developer,1
+23,Andrew Patel,39,M,Sales Manager,2013-01-01,18,Bachelors,115000,75,28,0.99,5,5,5,95,95,5,2013-01-01,813 Cedar Ln,Las Vegas,USA,1,andrew.patel@company.com,555-0123,Sales Manager,3
+24,Michelle Kim,31,F,Marketing Coordinator,2017-07-15,2,Bachelors,75000,25,3,0.96,3,4,3,75,85,3,2017-07-15,357 Oak Dr,Portland,USA,1,michelle.kim@company.com,555-4567,Marketing Coordinator,2
+25,Eric Nguyen,35,M,Operations Manager,2015-03-01,13,Masters,110000,65,20,0.98,5,4,5,95,90,5,2015-03-01,951 Pine St,Oklahoma City,USA,1,eric.nguyen@company.com,555-8901,Operations Manager,5
+26,Jennifer Davis,27,F,HR Specialist,2019-11-15,7,Bachelors,60000,55,11,0.97,4,4,4,85,80,4,2019-11-15,486 Walnut Ave,Baltimore,USA,1,jennifer.davis@company.com,555-2345,HR Specialist,4
+27,Daniel Smith,43,M,Senior Accountant,2009-06-01,24,Masters,130000,80,32,0.99,5,5,5,95,95,5,2009-06-01,739 Spruce Rd,Louisville,USA,1,daniel.smith@company.com,555-6789,Senior Accountant,8
+28,Stephanie Chen,30,F,Data Scientist,2018-02-15,4,Masters,95000,45,6,0.95,4,4,4,80,85,4,2018-02-15,246 Birch Ln,Milwaukee,USA,1,stephanie.chen@company.com,555-0123,Data Scientist,7
+29,Christopher Lee,37,M,Product Manager,2014-09-01,8,Bachelors,105000,50,13,0.96,4,4,4,90,75,4,2014-09-01,813 Cedar Dr,Albuquerque,USA,1,christopher.lee@company.com,555-4567,Product Manager,6
+30,Ashley Patel,29,F,Graphic Designer,2019-05-15,1,Bachelors,70000,20,2,0.98,3,4,2,70,80,3,2019-05-15,357 Oak St,Tucson,USA,1,ashley.patel@company.com,555-8901,Graphic Designer,2
+31,Ryan Kim,34,M,Sales Representative,2016-12-01,12,Bachelors,90000,70,24,0.97,5,5,5,95,90,5,2016-12-01,951 Pine Ave,Fresno,USA,1,ryan.kim@company.com,555-2345,Sales Representative,3
+32,Amanda Nguyen,32,F,Recruiter,2017-03-15,6,Bachelors,80000,40,8,0.99,4,4,4,85,90,4,2017-03-15,486 Walnut Rd,Sacramento,USA,1,amanda.nguyen@company.com,555-6789,Recruiter,4
+33,Justin Davis,40,M,IT Manager,2012-10-01,20,Masters,120000,75,30,0.98,5,5,5,95,95,5,2012-10-01,739 Spruce Ln,Long Beach,USA,1,justin.davis@company.com,555-0123,IT Manager,10
+34,Emily Smith,28,F,Marketing Specialist,2019-08-15,3,Bachelors,65000,35,5,0.96,4,3,3,75,80,4,2019-08-15,246 Birch Dr,Mesa,USA,1,emily.smith@company.com,555-4567,Marketing Specialist,2
+35,Brandon Chen,36,M,Financial Analyst,2015-01-01,15,Masters,100000,70,25,0.97,5,5,5,95,90,5,2015-01-01,813 Cedar St,Kansas City,USA,1,brandon.chen@company.com,555-8901,Financial Analyst,8
+36,Olivia Lee,31,F,Operations Specialist,2017-06-15,0,Bachelors,85000,15,1,0.99,3,4,2,70,75,3,2017-06-15,357 Oak Ave,Atlanta,USA,1,olivia.lee@company.com,555-2345,Operations Specialist,5
+37,Nicholas Patel,38,M,Business Analyst,2014-03-01,14,Masters,110000,75,26,0.98,5,5,5,95,95,5,2014-03-01,951 Pine Rd,Colorado Springs,USA,1,nicholas.patel@company.com,555-6789,Business Analyst,7
+38,Grace Kim,27,F,Customer Service Rep,2020-11-15,8,Bachelors,55000,50,12,0.97,4,4,4,85,90,4,2020-11-15,486 Walnut Ln,Omaha,USA,1,grace.kim@company.com,555-0123,Customer Service Rep,9
+39,Anthony Nguyen,33,M,Software Developer,2016-07-01,22,Masters,95000,80,34,0.99,5,5,5,95,95,5,2016-07-01,739 Spruce Dr,Raleigh,USA,1,anthony.nguyen@company.com,555-4567,Software Developer,1
+40,Chloe Davis,29,F,Social Media Specialist,2018-04-15,5,Bachelors,70000,45,7,0.95,4,4,4,80,85,4,2018-04-15,246 Birch St,Miami,USA,1,chloe.davis@company.com,555-8901,Social Media Specialist,2
+41,William Smith,42,M,Senior Engineer,2010-12-01,16,Masters,125000,70,28,0.98,5,5,5,95,90,5,2010-12-01,813 Cedar Ave,Oakland,USA,1,william.smith@company.com,555-2345,Senior Engineer,1
+42,Ava Chen,30,F,HR Coordinator,2017-09-15,2,Bachelors,75000,30,3,0.96,3,4,3,75,80,3,2017-09-15,357 Oak Rd,Minneapolis,USA,1,ava.chen@company.com,555-6789,HR Coordinator,4
+43,James Lee,35,M,Product Manager,2015-05-01,18,Masters,100000,80,32,0.99,5,5,5,95,95,5,2015-05-01,951 Pine Ln,Tulsa,USA,1,james.lee@company.com,555-0123,Product Manager,6
+44,Sophia Patel,28,F,Graphic Designer,2019-12-15,7,Bachelors,65000,55,10,0.97,4,4,4,85,90,4,2019-12-15,486 Walnut Dr,Cleveland,USA,1,sophia.patel@company.com,555-4567,Graphic Designer,2
+45,Benjamin Kim,39,M,Sales Manager,2013-08-01,24,Bachelors,115000,80,36,0.98,5,5,5,95,95,5,2013-08-01,739 Cedar Ave,Oakland,USA,1,william.smith@company.com,555-2345,Senior Engineer,1
+46,Mia Nguyen,31,F,Financial Analyst,2017-04-15,4,Masters,90000,40,6,0.96,4,3,4,80,85,4,2017-04-15,246 Birch Ave,Arlington,USA,1,mia.nguyen@company.com,555-2345,Financial Analyst,8
+47,Ethan Davis,37,M,IT Support Specialist,2014-01-01,10,Bachelors,85000,60,15,0.97,5,4,4,90,85,5,2014-01-01,813 Cedar Rd,New Orleans,USA,1,ethan.davis@company.com,555-6789,IT Support Specialist,10
+48,Isabella Smith,27,F,Customer Service Rep,2020-07-15,0,Bachelors,60000,15,1,0.99,3,4,2,70,75,3,2020-07-15,357 Oak Ln,Honolulu,USA,1,isabella.smith@company.com,555-0123,Customer Service Rep,9
+49,Michael Chen,34,M,Operations Specialist,2016-10-01,13,Masters,95000,75,24,0.98,5,5,5,95,95,5,2016-10-01,951 Pine Dr,Anchorage,USA,1,michael.chen@company.com,555-4567,Operations Specialist,5
+50,Charlotte Lee,32,F,HR Specialist,2017-01-15,8,Bachelors,80000,60,14,0.97,4,4,4,90,90,4,2017-01-15,486 Walnut St,Newark,USA,1,charlotte.lee@company.com,555-8901,HR Specialist,4
+51,Liam Patel,40,M,Project Manager,2012-06-01,20,Masters,120000,75,30,0.99,5,5,5,95,95,5,2012-06-01,739 Spruce Ave,Plano,USA,1,liam.patel@company.com,555-2345,Project Manager,6
+52,Amelia Kim,29,F,Web Developer,2018-09-15,3,Bachelors,70000,35,5,0.96,4,3,3,75,80,4,2018-09-15,246 Birch Rd,Henderson,USA,1,amelia.kim@company.com,555-6789,Web Developer,1
+53,Noah Nguyen,36,M,Business Analyst,2015-03-01,16,Masters,105000,70,26,0.98,5,5,5,95,90,5,2015-03-01,813 Cedar Ln,Lincoln,USA,1,noah.nguyen@company.com,555-0123,Business Analyst,7
+54,Harper Davis,33,F,Recruiter,2016-12-15,0,Bachelors,85000,15,1,0.99,3,4,2,70,85,3,2016-12-15,357 Oak Dr,Toledo,USA,1,harper.davis@company.com,555-4567,Recruiter,4
+55,Oliver Smith,38,M,Sales Representative,2013-11-01,11,Bachelors,95000,65,18,0.97,5,4,5,95,90,5,2013-11-01,951 Pine St,Orlando,USA,1,oliver.smith@company.com,555-8901,Sales Representative,3
+56,Evelyn Chen,30,F,Marketing Coordinator,2017-08-15,12,Bachelors,75000,70,22,0.98,5,5,5,95,95,5,2017-08-15,486 Walnut Ave,Chula Vista,USA,1,evelyn.chen@company.com,555-2345,Marketing Coordinator,2
+57,Elijah Lee,35,M,Operations Manager,2015-05-01,22,Masters,110000,80,34,0.99,5,5,5,95,95,5,2015-05-01,739 Spruce Rd,Irvine,USA,1,elijah.lee@company.com,555-6789,Operations Manager,5
+58,Aria Patel,28,F,Data Analyst,2019-02-15,6,Bachelors,65000,50,9,0.96,4,4,4,80,85,4,2019-02-15,246 Birch Ln,Newark,USA,1,aria.patel@company.com,555-0123,Data Analyst,7
+59,Aiden Kim,41,M,Senior Accountant,2011-09-01,18,Masters,130000,75,30,0.98,5,5,5,95,90,5,2011-09-01,813 Cedar Dr,Durham,USA,1,aiden.kim@company.com,555-4567,Senior Accountant,8
+60,Avery Nguyen,26,F,Graphic Designer,2021-04-15,1,Bachelors,60000,25,2,0.97,3,4,3,75,80,3,2021-04-15,357 Oak St,Spokane,USA,1,avery.nguyen@company.com,555-8901,Graphic Designer,2
+61,Jackson Davis,33,M,IT Support Specialist,2016-01-01,14,Bachelors,80000,70,24,0.99,5,5,5,95,95,5,2016-01-01,951 Pine Ave,Tacoma,USA,1,jackson.davis@company.com,555-2345,IT Support Specialist,10
+62,Scarlett Smith,29,F,Social Media Manager,2018-07-15,7,Bachelors,70000,55,12,0.96,4,4,4,85,90,4,2018-07-15,486 Walnut Rd,Oxnard,USA,1,scarlett.smith@company.com,555-6789,Social Media Manager,2
+63,Grayson Chen,37,M,Product Manager,2014-04-01,24,Masters,115000,80,36,0.98,5,5,5,95,95,5,2014-04-01,739 Spruce Ln,Fontana,USA,1,grayson.chen@company.com,555-0123,Product Manager,6
+64,Chloe Lee,31,F,HR Coordinator,2017-11-15,4,Bachelors,75000,40,6,0.97,4,3,4,80,85,4,2017-11-15,246 Birch Dr,Moreno Valley,USA,1,chloe.lee@company.com,555-4567,HR Coordinator,4
+65,Levi Patel,35,M,Financial Analyst,2015-06-01,9,Masters,100000,60,16,0.98,5,4,4,90,90,5,2015-06-01,813 Cedar St,Huntington Beach,USA,1,levi.patel@company.com,555-8901,Financial Analyst,8
+66,Victoria Kim,27,F,Customer Service Rep,2020-03-15,0,Bachelors,55000,15,1,0.99,3,4,2,70,75,3,2020-03-15,357 Oak Ave,Glendale,USA,1,victoria.kim@company.com,555-2345,Customer Service Rep,9
+67,Wyatt Nguyen,39,M,Project Manager,2013-12-01,11,Bachelors,110000,65,20,0.97,5,5,5,95,95,5,2013-12-01,951 Pine Rd,Yonkers,USA,1,wyatt.nguyen@company.com,555-6789,Project Manager,6
+68,Natalie Davis,30,F,Marketing Specialist,2018-09-15,6,Bachelors,75000,50,8,0.96,4,4,4,85,90,4,2018-09-15,486 Walnut Ln,Huntington Park,USA,1,natalie.davis@company.com,555-0123,Marketing Specialist,2
+69,Eli Smith,34,M,Operations Specialist,2016-03-01,20,Masters,95000,75,32,0.99,5,5,5,95,95,5,2016-03-01,739 Spruce Dr,Santa Clarita,USA,1,eli.smith@company.com,555-4567,Operations Specialist,5
+70,Zoe Chen,25,F,Data Scientist,2021-01-15,2,Masters,70000,30,4,0.98,3,4,3,75,80,3,2021-01-15,246 Birch St,Salinas,USA,1,zoe.chen@company.com,555-8901,Data Scientist,7
+71,Mason Lee,40,M,Sales Manager,2012-08-01,16,Bachelors,120000,70,28,0.97,5,5,5,95,90,5,2012-08-01,813 Cedar Ave,Pomona,USA,1,mason.lee@company.com,555-2345,Sales Manager,3
+72,Lily Patel,32,F,HR Specialist,2017-05-15,0,Bachelors,80000,15,1,0.99,3,4,2,70,85,3,2017-05-15,357 Oak Rd,Sunnyvale,USA,1,lily.patel@company.com,555-6789,HR Specialist,4
+73,Alexander Kim,36,M,Business Analyst,2015-10-01,13,Masters,105000,70,22,0.98,5,5,5,95,95,5,2015-10-01,951 Pine Ln,Escondido,USA,1,alexander.kim@company.com,555-0123,Business Analyst,7
+74,Audrey Nguyen,28,F,Graphic Designer,2019-07-15,9,Bachelors,65000,60,14,0.96,4,4,4,90,90,4,2019-07-15,486 Walnut Dr,Torrance,USA,1,audrey.nguyen@company.com,555-4567,Graphic Designer,2
+75,Sebastian Davis,38,M,IT Manager,2013-03-01,22,Masters,125000,80,34,0.99,5,5,5,95,95,5,2013-03-01,739 Spruce St,Pasadena,USA,1,sebastian.davis@company.com,555-8901,IT Manager,10
+76,Addison Smith,30,F,Marketing Coordinator,2017-12-15,5,Bachelors,75000,45,7,0.97,4,3,4,80,85,4,2017-12-15,246 Birch Ave,Orange,USA,1,addison.smith@company.com,555-2345,Marketing Coordinator,2
+77,Christian Chen,33,M,Financial Analyst,2016-06-01,18,Masters,95000,75,30,0.98,5,5,5,95,90,5,2016-06-01,813 Cedar Rd,Fullerton,USA,1,christian.chen@company.com,555-6789,Financial Analyst,8
+78,Stella Lee,26,F,Customer Service Rep,2020-09-15,1,Bachelors,60000,25,2,0.96,3,4,3,75,80,3,2020-09-15,357 Oak Ln,New York,USA,1,stella.lee@company.com,555-0123,Customer Service Rep,9
+79,Caleb Patel,42,M,Senior Engineer,2011-02-01,14,Masters,130000,70,26,0.97,5,5,5,95,95,5,2011-02-01,951 Pine Dr,Santa Ana,USA,1,caleb.patel@company.com,555-4567,Senior Engineer,1
+80,Luna Kim,29,F,Web Developer,2018-11-15,8,Bachelors,70000,55,10,0.98,4,4,4,85,90,4,2018-11-15,486 Walnut St,Oakland,USA,1,luna.kim@company.com,555-8901,Web Developer,1
+81,Owen Nguyen,35,M,Sales Representative,2015-08-01,24,Bachelors,90000,80,36,0.99,5,5,5,95,95,5,2015-08-01,739 Spruce Ave,Long Beach,USA,1,owen.nguyen@company.com,555-2345,Sales Representative,3
+82,Paisley Davis,31,F,Recruiter,2017-03-15,4,Bachelors,80000,40,6,0.97,4,3,4,80,85,4,2017-03-15,246 Birch Rd,Bakersfield,USA,1,paisley.davis@company.com,555-6789,Recruiter,4
+83,Luca Smith,37,M,Operations Manager,2014-01-01,9,Masters,115000,60,16,0.96,5,4,4,90,85,5,2014-01-01,813 Cedar Ln,Anaheim,USA,1,luca.smith@company.com,555-0123,Operations Manager,5
+84,Aurora Chen,27,F,Data Analyst,2020-06-15,0,Bachelors,65000,15,1,0.99,3,4,2,70,80,3,2020-06-15,357 Oak Dr,Santa Monica,USA,1,aurora.chen@company.com,555-4567,Data Analyst,7
+85,Jace Lee,39,M,IT Support Specialist,2013-10-01,11,Bachelors,85000,65,18,0.98,5,5,5,95,95,5,2013-10-01,951 Pine St,Riverside,USA,1,jace.lee@company.com,555-8901,IT Support Specialist,10
+86,Nora Patel,30,F,Social Media Specialist,2018-05-15,6,Bachelors,70000,50,8,0.97,4,4,4,85,90,4,2018-05-15,486 Walnut Ave,Stockton,USA,1,nora.patel@company.com,555-2345,Social Media Specialist,2
+87,Asher Kim,34,M,Product Manager,2016-12-01,20,Masters,105000,75,32,0.99,5,5,5,95,95,5,2016-12-01,739 Spruce Rd,Chula Vista,USA,1,asher.kim@company.com,555-6789,Product Manager,6
+88,Hazel Nguyen,28,F,Graphic Designer,2019-09-15,2,Bachelors,65000,30,4,0.96,3,4,3,75,80,3,2019-09-15,246 Birch Ln,Fremont,USA,1,hazel.nguyen@company.com,555-0123,Graphic Designer,2
+89,Silas Davis,40,M,Project Manager,2012-05-01,16,Masters,120000,70,28,0.97,5,5,5,95,90,5,2012-05-01,813 Cedar Dr,Irvine,USA,1,silas.davis@company.com,555-4567,Project Manager,6
+90,Ivy Smith,32,F,HR Coordinator,2017-02-15,0,Bachelors,75000,15,1,0.99,3,4,2,70,85,3,2017-02-15,357 Oak St,San Bernardino,USA,1,ivy.smith@company.com,555-8901,HR Coordinator,4
+91,Jasper Chen,36,M,Financial Analyst,2015-11-01,13,Masters,100000,70,24,0.98,5,5,5,95,95,5,2015-11-01,951 Pine Ave,Modesto,USA,1,jasper.chen@company.com,555-2345,Financial Analyst,8
+92,Violet Lee,29,F,Customer Service Rep,2018-08-15,8,Bachelors,60000,60,12,0.96,4,4,4,90,90,4,2018-08-15,486 Walnut Rd,Fontana,USA,1,violet.lee@company.com,555-6789,Customer Service Rep,9
+93,Kai Patel,33,M,Software Developer,2016-04-01,22,Masters,95000,80,34,0.99,5,5,5,95,95,5,2016-04-01,739 Spruce Ln,Oxnard,USA,1,kai.patel@company.com,555-0123,Software Developer,1
+94,Willow Kim,25,F,Marketing Specialist,2021-01-15,5,Bachelors,60000,45,7,0.97,4,3,4,80,85,4,2021-01-15,246 Birch Dr,Moreno Valley,USA,1,willow.kim@company.com,555-4567,Marketing Specialist,2
+95,Atlas Nguyen,41,M,Sales Manager,2011-07-01,18,Bachelors,125000,75,30,0.98,5,5,5,95,90,5,2011-07-01,813 Cedar St,Glendale,USA,1,atlas.nguyen@company.com,555-8901,Sales Manager,3
+96,Daisy Davis,31,F,Operations Specialist,2017-12-15,1,Masters,85000,25,2,0.96,3,4,3,75,80,3,2017-12-15,357 Oak Ave,Huntington Beach,USA,1,daisy.davis@company.com,555-2345,Operations Specialist,5
+97,Orion Smith,38,M,Business Analyst,2014-09-01,14,Masters,110000,70,26,0.97,5,5,5,95,95,5,2014-09-01,951 Pine Rd,Santa Clarita,USA,1,orion.smith@company.com,555-6789,Business Analyst,7
+98,Iris Chen,27,F,Recruiter,2020-06-15,7,Bachelors,65000,55,10,0.98,4,4,4,85,90,4,2020-06-15,486 Walnut Ln,Oceanside,USA,1,iris.chen@company.com,555-0123,Recruiter,4
+99,Arlo Lee,35,M,IT Support Specialist,2015-03-01,24,Bachelors,80000,80,36,0.99,5,5,5,95,95,5,2015-03-01,739 Spruce Dr,Garden Grove,USA,1,arlo.lee@company.com,555-4567,IT Support Specialist,10
+100,Rose Patel,30,F,Social Media Manager,2018-01-15,4,Bachelors,75000,40,6,0.97,4,3,4,80,85,4,2018-01-15,246 Birch St,Rancho Cucamonga,USA,1,rose.patel@company.com,555-8901,Social Media Manager,2
+101,Julian Kim,36,M,Product Manager,2014-07-01,10,Masters,110000,65,18,0.96,5,4,5,95,90,5,2014-07-01,813 Cedar Ave,Oceanside,USA,1,julian.kim@company.com,555-2345,Product Manager,6
+102,Violet Nguyen,28,F,Data Analyst,2019-11-15,6,Bachelors,70000,50,9,0.98,4,4,4,85,90,4,2019-11-15,357 Oak Rd,Santa Rosa,USA,1,violet.nguyen@company.com,555-6789,Data Analyst,7
+103,Elias Davis,39,M,Sales Representative,2012-03-01,14,Bachelors,95000,70,26,0.99,5,5,5,95,95,5,2012-03-01,951 Pine Ln,Elk Grove,USA,1,elias.davis@company.com,555-0123,Sales Representative,3
+104,Aria Smith,31,F,HR Coordinator,2017-08-15,0,Bachelors,75000,15,1,0.97,3,4,2,70,80,3,2017-08-15,486 Walnut Dr,Palmdale,USA,1,aria.smith@company.com,555-4567,HR Coordinator,4
+105,Grayson Chen,34,M,Operations Manager,2015-05-01,12,Masters,105000,75,22,0.98,5,5,5,95,90,5,2015-05-01,739 Spruce St,Lancaster,USA,1,grayson.chen@company.com,555-8901,Operations Manager,5
+106,Chloe Lee,27,F,Graphic Designer,2020-02-15,1,Bachelors,60000,25,2,0.96,3,4,3,75,85,3,2020-02-15,246 Birch Ave,Salinas,USA,1,chloe.lee@company.com,555-2345,Graphic Designer,2
+107,Levi Patel,40,M,Financial Analyst,2013-10-01,16,Masters,115000,70,28,0.99,5,5,5,95,95,5,2013-10-01,813 Cedar Rd,Hayward,USA,1,levi.patel@company.com,555-6789,Financial Analyst,8
+108,Victoria Kim,29,F,Customer Service Rep,2018-06-15,8,Bachelors,55000,60,12,0.97,4,4,4,90,90,4,2018-06-15,357 Oak Ln,Lakewood,USA,1,victoria.kim@company.com,555-0123,Customer Service Rep,9
+109,Wyatt Nguyen,37,M,Software Developer,2014-12-01,22,Masters,100000,80,34,0.98,5,5,5,95,95,5,2014-12-01,951 Pine Dr,Sunnyvale,USA,1,wyatt.nguyen@company.com,555-4567,Software Developer,1
+110,Natalie Davis,32,F,Marketing Coordinator,2016-09-15,4,Bachelors,80000,40,6,0.96,4,3,4,80,85,4,2016-09-15,486 Walnut St,Escondido,USA,1,natalie.davis@company.com,555-8901,Marketing Coordinator,2
+111,Eli Smith,35,M,Project Manager,2015-02-01,18,Masters,120000,75,30,0.99,5,5,5,95,90,5,2015-02-01,739 Spruce Ave,Orange,USA,1,eli.smith@company.com,555-2345,Project Manager,6
+112,Zoe Chen,26,F,Data Scientist,2021-06-15,2,Masters,75000,30,4,0.97,3,4,3,75,80,3,2021-06-15,246 Birch Rd,Fullerton,USA,1,zoe.chen@company.com,555-6789,Data Scientist,7
+113,Mason Lee,41,M,Sales Manager,2011-11-01,14,Bachelors,125000,70,26,0.98,5,5,5,95,95,5,2011-11-01,813 Cedar Ln,Simi Valley,USA,1,mason.lee@company.com,555-0123,Sales Manager,3
+114,Lily Patel,33,F,HR Specialist,2016-05-15,0,Bachelors,80000,15,1,0.99,3,4,2,70,85,3,2016-05-15,357 Oak Dr,Concord,USA,1,lily.patel@company.com,555-4567,HR Specialist,4
+115,Alexander Kim,38,M,Business Analyst,2013-08-01,12,Masters,110000,65,20,0.96,5,4,5,95,90,5,2013-08-01,951 Pine St,Roseville,USA,1,alexander.kim@company.com,555-8901,Business Analyst,7
+116,Audrey Nguyen,30,F,Graphic Designer,2018-03-15,6,Bachelors,70000,50,8,0.98,4,4,4,85,90,4,2018-03-15,486 Walnut Ave,Victorville,USA,1,audrey.nguyen@company.com,555-2345,Graphic Designer,2
+117,Sebastian Davis,36,M,IT Manager,2014-01-01,20,Masters,115000,80,32,0.99,5,5,5,95,95,5,2014-01-01,739 Spruce Rd,Santa Clara,USA,1,sebastian.davis@company.com,555-6789,IT Manager,10
+118,Addison Smith,28,F,Marketing Specialist,2019-10-15,8,Bachelors,65000,60,14,0.97,4,4,4,90,90,4,2019-10-15,246 Birch Ln,Vallejo,USA,1,addison.smith@company.com,555-0123,Marketing Specialist,2
+119,Christian Chen,39,M,Financial Analyst,2012-06-01,16,Masters,120000,75,28,0.98,5,5,5,95,90,5,2012-06-01,813 Cedar Dr,Berkeley,USA,1,christian.chen@company.com,555-4567,Financial Analyst,8
+120,Stella Lee,31,F,Customer Service Rep,2017-01-15,0,Bachelors,60000,15,1,0.96,3,4,2,70,75,3,2017-01-15,357 Oak St,Downey,USA,1,stella.lee@company.com,555-8901,Customer Service Rep,9
+121,Caleb Patel,43,M,Senior Engineer,2009-09-01,14,Masters,135000,70,26,0.99,5,5,5,95,95,5,2009-09-01,951 Pine Ave,Costa Mesa,USA,1,caleb.patel@company.com,555-2345,Senior Engineer,1
+122,Luna Kim,32,F,Web Developer,2016-04-15,10,Bachelors,85000,65,18,0.97,5,4,5,95,90,5,2016-04-15,486 Walnut Rd,Inglewood,USA,1,luna.kim@company.com,555-6789,Web Developer,1
+123,Owen Nguyen,37,M,Sales Representative,2014-12-01,22,Bachelors,95000,80,34,0.98,5,5,5,95,95,5,2014-12-01,739 Spruce Ln,Carlsbad,USA,1,owen.nguyen@company.com,555-0123,Sales Representative,3
+124,Paisley Davis,30,F,Recruiter,2018-07-15,6,Bachelors,75000,50,9,0.96,4,4,4,85,90,4,2018-07-15,246 Birch Dr,Fairfield,USA,1,paisley.davis@company.com,555-4567,Recruiter,4
+125,Luca Smith,35,M,Operations Manager,2015-03-01,18,Masters,110000,75,30,0.99,5,5,5,95,90,5,2015-03-01,813 Cedar St,Temecula,USA,1,luca.smith@company.com,555-8901,Operations Manager,5
+126,Aurora Chen,28,F,Data Analyst,2019-11-15,8,Bachelors,70000,60,12,0.97,4,4,4,90,90,4,2019-11-15,357 Oak Ave,Antioch,USA,1,aurora.chen@company.com,555-2345,Data Analyst,7
+127,Jace Lee,40,M,IT Support Specialist,2012-08-01,16,Bachelors,90000,70,24,0.98,5,5,5,95,95,5,2012-08-01,951 Pine Rd,Richmond,USA,1,jace.lee@company.com,555-6789,IT Support Specialist,10
+128,Nora Patel,33,F,Social Media Specialist,2016-05-15,0,Bachelors,75000,15,1,0.96,3,4,2,70,80,3,2016-05-15,486 Walnut Ln,Murrieta,USA,1,nora.patel@company.com,555-0123,Social Media Specialist,2
+129,Asher Kim,38,M,Product Manager,2013-02-01,12,Masters,115000,65,20,0.99,5,5,5,95,90,5,2013-02-01,739 Spruce Dr,Norwalk,USA,1,asher.kim@company.com,555-4567,Product Manager,6
+130,Hazel Nguyen,31,F,Graphic Designer,2017-09-15,6,Bachelors,80000,50,8,0.97,4,4,4,85,90,4,2017-09-15,246 Birch St,Daly City,USA,1,hazel.nguyen@company.com,555-8901,Graphic Designer,2
+131,Silas Davis,42,M,Project Manager,2010-06-01,20,Masters,130000,80,32,0.98,5,5,5,95,95,5,2010-06-01,813 Cedar Ave,Burbank,USA,1,silas.davis@company.com,555-2345,Project Manager,6
+132,Ivy Smith,29,F,HR Coordinator,2018-03-15,8,Bachelors,65000,60,14,0.96,4,4,4,90,90,4,2018-03-15,357 Oak Rd,Santa Maria,USA,1,ivy.smith@company.com,555-6789,HR Coordinator,4
+133,Jasper Chen,34,M,Financial Analyst,2015-11-01,22,Masters,95000,80,34,0.99,5,5,5,95,95,5,2015-11-01,951 Pine Ln,El Cajon,USA,1,jasper.chen@company.com,555-0123,Financial Analyst,8
+134,Violet Lee,26,F,Customer Service Rep,2021-06-15,0,Bachelors,55000,15,1,0.97,3,4,2,70,75,3,2021-06-15,486 Walnut Dr,San Mateo,USA,1,violet.lee@company.com,555-4567,Customer Service Rep,9
+135,Kai Patel,39,M,Software Developer,2012-01-01,16,Masters,105000,75,28,0.98,5,5,5,95,90,5,2012-01-01,739 Spruce St,Rialto,USA,1,kai.patel@company.com,555-8901,Software Developer,1
+136,Willow Kim,32,F,Marketing Specialist,2016-08-15,10,Bachelors,85000,65,18,0.96,5,4,5,95,90,5,2016-08-15,246 Birch Ave,Vista,USA,1,willow.kim@company.com,555-2345,Marketing Specialist,2
+137,Atlas Nguyen,44,M,Sales Manager,2008-04-01,14,Bachelors,130000,70,26,0.99,5,5,5,95,95,5,2008-04-01,813 Cedar Rd,Compton,USA,1,atlas.nguyen@company.com,555-6789,Sales Manager,3
+138,Daisy Davis,27,F,Data Scientist,2020-01-15,6,Masters,70000,50,9,0.97,4,4,4,85,90,4,2020-01-15,357 Oak Ln,Santa Barbara,USA,1,daisy.davis@company.com,555-0123,Data Scientist,7
+139,Orion Smith,36,M,Business Analyst,2014-09-01,20,Masters,100000,80,32,0.98,5,5,5,95,95,5,2014-09-01,951 Pine Dr,South Gate,USA,1,orion.smith@company.com,555-4567,Business Analyst,7
+140,Iris Chen,29,F,Recruiter,2018-05-15,8,Bachelors,70000,60,12,0.96,4,4,4,90,90,4,2018-05-15,486 Walnut St,Alhambra,USA,1,iris.chen@company.com,555-8901,Recruiter,4
+141,Arlo Lee,40,M,IT Support Specialist,2012-12-01,22,Bachelors,90000,80,34,0.99,5,5,5,95,95,5,2012-12-01,739 Spruce Ave,Citrus Heights,USA,1,arlo.lee@company.com,555-2345,IT Support Specialist,10
+142,Rose Patel,33,F,Social Media Manager,2016-07-15,0,Bachelors,80000,15,1,0.97,3,4,2,70,85,3,2016-07-15,246 Birch Rd,Hawthorne,USA,1,rose.patel@company.com,555-6789,Social Media Manager,2
+143,Julian Kim,37,M,Product Manager,2013-04-01,12,Masters,120000,65,20,0.98,5,5,5,95,90,5,2013-04-01,813 Cedar Ln,Livermore,USA,1,julian.kim@company.com,555-0123,Product Manager,6
+144,Violet Nguyen,30,F,Graphic Designer,2017-11-15,6,Bachelors,85000,50,8,0.96,4,4,4,85,90,4,2017-11-15,357 Oak Dr,Tracy,USA,1,violet.nguyen@company.com,555-4567,Graphic Designer,2
+145,Elias Davis,41,M,Project Manager,2011-08-01,20,Masters,125000,80,32,0.99,5,5,5,95,95,5,2011-08-01,951 Pine St,Indio,USA,1,elias.davis@company.com,555-8901,Project Manager,6
+146,Aria Smith,28,F,HR Specialist,2019-03-15,8,Bachelors,65000,60,14,0.97,4,4,4,90,90,4,2019-03-15,486 Walnut Ave,Redding,USA,1,aria.smith@company.com,555-2345,HR Specialist,4
+147,Grayson Chen,35,M,Financial Analyst,2015-01-01,22,Masters,100000,80,34,0.98,5,5,5,95,95,5,2015-01-01,739 Spruce Rd,Santa Cruz,USA,1,grayson.chen@company.com,555-6789,Financial Analyst,8
+148,Chloe Lee,27,F,Customer Service Rep,2020-09-15,0,Bachelors,60000,15,1,0.96,3,4,2,70,75,3,2020-09-15,246 Birch Ln,Westminster,USA,1,chloe.lee@company.com,555-0123,Customer Service Rep,9
+149,Levi Patel,38,M,Software Developer,2012-06-01,16,Masters,110000,75,28,0.99,5,5,5,95,90,5,2012-06-01,813 Cedar Dr,San Leandro,USA,1,levi.patel@company.com,555-4567,Software Developer,1
+150,Victoria Kim,31,F,Marketing Coordinator,2016-02-15,10,Bachelors,90000,65,18,0.97,5,4,5,95,90,5,2016-02-15,357 Oak St,Whittier,USA,1,victoria.kim@company.com,555-8901,Marketing Coordinator,2
